@@ -84,6 +84,13 @@ const TabStack = () => {
           tabBarLabel: 'Profile'
         }}
       />
+       <Tab.Screen
+       name="Settings"
+       component={Settings}
+        options={{
+          tabBarLabel: 'Settings'
+        }}
+      />
     </Tab.Navigator>
   );
 };
